@@ -1,0 +1,181 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+
+    background-color:#3B5540;
+    padding: 40px;
+    color: white;
+}
+
+.main_text{
+
+    display: flex;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.logo{
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+li, a{
+
+    text-decoration: none;
+
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+
+    color: blue;
+}
+
+h2{
+
+    color: #01a4af;
+
+}
+
+.header_shooters{
+
+    display: flex;
+    justify-content: center;
+}
+
+.shooter_logo{
+    width: 50px;
+    margin-left: 10px;
+}
+
+.primer_juego{
+    margin-top: 50px;
+
+}
+
+.categorias_conclusion{
+
+    margin-top: 50px;
+
+}
+
+
+.header_aventura{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aventura_logo{
+    width: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.header_deportes{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deportes_logo{
+    width: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+.header_accion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header_nintendo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nintendo_logo{
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.header_acerca_de{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acerca_de_logo{
+    width: 40px;
+    margin-left: 7px;
+    
+}
+
+.acerca_de_contenido{
+    text-align: center;
+
+}
+
+.header_contactenos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactenos_logo{
+    width: 40px;
+    margin-left: 7px;
+
+}
+
+.contactenos_contenido{
+    text-align: center;
+
+}
